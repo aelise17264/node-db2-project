@@ -1,5 +1,5 @@
 const express = require('express')
-const db = require('./data/connection')
+const db = require('./data/seeds/001-car')
 const router = express.Router()
 
 router.get('/', (req, res) => {
